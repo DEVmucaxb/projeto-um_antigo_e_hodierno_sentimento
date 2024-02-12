@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 1.5em;
+}
+
+
+section {
+    background-color: white;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+section#imagem {
+    position: relative;
+    background: url(../imagens/galeão-pq.jpg) no-repeat right center fixed;
+    background-size: cover;
+    height: 40%;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.521);
+}
+
+section p {
+    text-indent: 30px;
+    line-height: 2em;
+    padding: 20px 10px 20px 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
+}
+
+section#imagem p {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.466);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* "Trajada na igreja [vós estás] Comigo deveria estar" */

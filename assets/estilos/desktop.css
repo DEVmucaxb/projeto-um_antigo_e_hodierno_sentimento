@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1000px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section#imagem {
+        position: relative;
+        background: url(../imagens/galeão.jpg) no-repeat right center fixed;
+        background-size: cover;
+        height: 70%;
+        box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.521);
+    }
+}
+
+/* Bah, não gostei do resultado, preciso treinar */
